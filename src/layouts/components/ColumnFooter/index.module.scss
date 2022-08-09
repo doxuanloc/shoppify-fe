@@ -1,0 +1,28 @@
+.wrapper {
+    display: flex;
+}
+
+.column {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 170px;
+    align-items: flex-start;
+    width: 190px;
+}
+
+.column button {
+    font-size: 13px;
+    color: rgb(130, 124, 124);
+    margin-bottom: 12px;
+}
+
+.column button:hover {
+    color: red;
+}
+
+.column p {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 12px;
+}

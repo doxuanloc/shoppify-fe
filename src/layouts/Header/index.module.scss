@@ -1,0 +1,68 @@
+.wrapper {
+    margin-top: 0;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.img {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.buttonLeft {
+    z-index: 999;
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 50%;
+    padding: 0 20px;
+    opacity: 0;
+}
+
+.buttonRight {
+    z-index: 999;
+    color: white;
+    position: absolute;
+    right: 0;
+    bottom: 50%;
+    padding: 0 20px;
+    opacity: 0;
+}
+
+
+.img:hover {
+    .buttonLeft,
+    .buttonRight {
+        transition: 1s;
+        opacity: 1;
+    }
+}
+
+.showHeaderInfo {
+    position: absolute;
+    top: 0;
+    transition: 1s;
+}
+
+.hideHeaderInfo {
+    position: absolute;
+    top: -100px;
+    transition: 1s;
+}
+
+.showSidebar {
+    position: absolute;
+    transition: 1s;
+}
+
+.hideSidebar {
+    position: absolute;
+    top: -60px;
+    transition: 1s;
+}
+
+
+

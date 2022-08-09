@@ -1,0 +1,132 @@
+.wrapper img{
+    width: 258px;
+    height: 307px;
+  
+}
+
+.wrapper {
+    cursor: pointer;
+    margin-bottom: 100px;
+    margin-top: 35px;
+}
+
+.headItem:hover {
+    .iconItem {
+        opacity: 1;
+    }
+}
+
+.headItem {
+    margin: 15px;
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+    margin-left: 26px;
+    
+}
+
+.iconItem {
+    margin-right: 25px;
+    background-color: #fff;
+    padding: 17px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    opacity: 0;
+    transition: 0.6s;
+    z-index: 0;
+    color: black;
+}
+
+.iconItem:hover {
+    background-color: red;
+    color: white;
+}
+
+
+
+.iconItem button {
+    color: #000;
+}
+
+.iconItem:hover {
+    .font-upload {   
+        color: red;
+}
+}
+
+.new {
+    background-color: rgb(36, 232, 22);
+    color: #fff;
+    padding-left: 7px;
+    width: 38px;
+    font-size: 12px;
+    font-weight: 100;
+    position: absolute;
+    top:20px;
+    left: 5px;
+    margin-left: 20px;
+    cursor: text;
+}
+
+.infoItem button {
+    color: rgb(99, 95, 95);
+    font-size: 10px;
+    margin-right: 130px;
+    padding-top: 5px;
+}
+
+.infoItem button:hover {
+    color: red;
+}
+
+.infoItem {
+    display: flex;
+    align-items: center;
+}
+
+.nameItem button {
+    color: rgb(69, 67, 67);
+}
+
+.nameItem p {
+    font-weight: 600;
+}
+
+
+
+.nameItem button:hover {
+    color: red;
+}
+
+.imageContainer {
+    width: 100%;
+    height: 307px;
+    position: relative;
+
+    .image:first-child {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: all 1s;
+        opacity: 1;
+    }
+
+    .image:last-child() {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: all 1s;
+        opacity: 0;
+    }
+
+    &:hover .image:first-child {
+        opacity: 0;
+    }
+
+    &:hover .image:last-child {
+        opacity: 1;
+    }
+}

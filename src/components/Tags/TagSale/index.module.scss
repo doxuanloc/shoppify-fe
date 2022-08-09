@@ -1,0 +1,55 @@
+.wrapper img {
+    width: 480px;
+    height: 402px;  
+    transition: opacity 1s ease 0s, transform 1s ease 0s;
+}
+
+.wrapper img:hover {
+    transform: scale(1.1);
+}
+
+
+.wrapper {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.wrapper button {
+    color: #fff;
+    z-index: 99;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+}
+
+.wrapper button::after {
+    content: " >";
+
+}
+
+.wrapper button:hover {
+    color: red;
+    border-bottom: 1px solid red;
+    transition: 0.5s;
+}
+
+.content {
+    margin: 160px 20px 20px 75px;
+    top: 50px;
+    height: 120px;
+    width: 336px;
+    border: 3px solid white;
+    position: absolute;
+    padding: 20px 15px 25px 15px;
+    text-align: center;
+}
+
+.content h1 {
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 700;
+}

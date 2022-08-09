@@ -1,0 +1,88 @@
+.wrapper {
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    padding: 80px 10px 0 10px;
+    display: flex;
+    height: 150px;
+    transition: 0.5s;
+}
+
+.wrapperColor {
+    width: 100%;
+    position: fixed;
+    padding: 80px 10px 0 20px;
+    display: flex;
+    background-color: rgb(74, 72, 72);
+    transition: 1s;
+    height: 130px;
+    padding-bottom: 20px;
+    z-index: 1;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.wrapper img {
+    width: 90px;
+    cursor: pointer;
+    margin-right: 40px;
+    height: 20px;
+}
+
+.nav button {
+    padding: 0 20px 15px 0;
+    font-weight: 600;
+   
+}
+
+.left {
+    display: flex;
+
+}
+
+.right button{
+    font-size: 18px;
+    padding: 0 15px;
+}
+
+.right {
+    position: absolute;
+    right: 0;
+}
+
+.right p {
+    height: 10px;
+    width: 10px;
+    z-index: 99;
+}
+
+.cart {
+    position: absolute;
+    top: -10px;
+    right: 0;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    color: black;
+    background-color: white;
+    font-size: 18px;
+}
+
+.cart p {
+    font-size: 12px;
+    text-align: center;
+    padding: 3px 6px;
+}
+
+.left {
+    position: relative;
+}
+
+.left img {
+    margin-right: 20px;
+}

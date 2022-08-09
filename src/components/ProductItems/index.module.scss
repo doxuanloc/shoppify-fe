@@ -1,0 +1,24 @@
+.wrapper {
+    width: 400px;
+    height: 110px;
+    background-color: white;
+    display: flex;
+    color: rgb(119, 116, 116);
+}
+
+.wrapper img {
+    height: 100%;
+    margin-right: 10px;
+}
+
+.infoItem {
+    margin-top: 10px;
+}
+
+.infoItem button:hover {
+    color: red;
+}
+
+.infoItem button {
+    color: #000;
+}

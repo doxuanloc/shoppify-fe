@@ -1,0 +1,20 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 85px;
+    height: 30px;
+    border: 0.1px solid rgb(56, 54, 54);
+    position: relative;
+    background-color: azure;
+}
+
+.wrapper button {
+    color: black;
+    border: none;
+    padding-top: 8px;
+}
+
+.wrapper button:hover {
+    color: red;
+}
+
